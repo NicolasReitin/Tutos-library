@@ -8,5 +8,10 @@ Pré-requis : aucun
     -> accès à la page de mail via : 
         - smtp: smtp://localhost:1025 (côté code)
         - http://localhost:8025/
+
+Important :
+$mail->isSMTP();
+$mail->Host = "localhost";
+$mail->Port = "1025";
         
 3 - Ctrl + C pour l'arrêter

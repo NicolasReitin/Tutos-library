@@ -12,4 +12,11 @@ Pré-requis : Node.js installé
         - smtp: smtp://localhost:1025 (côté code)
         - http://localhost:1080
 
+Important :
+$mail->isSMTP();
+$mail->Host = "localhost";
+$mail->Port = "1025";
+$mail->SMTPAutoTLS = false; // Obligatoire pour MaliDev
+
+
 3 - Ctrl + C pour l'arrêter
